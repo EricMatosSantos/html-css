@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+iframe{
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -1%)
+    
+}
+.linkplaylist{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+}
+.voltar{
+    position: absolute;
+    top: 75%;
+    left: 48%;
+}

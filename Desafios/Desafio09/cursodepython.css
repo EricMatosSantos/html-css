@@ -1,0 +1,31 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+iframe{
+    position: absolute;
+    left: 50%;
+    top: 13%;
+    transform: translate(-50%, -1%)
+    
+}
+.link{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+.back{
+    width: 85px;
+    height: 85px;
+    position: absolute;
+    top: 68%;
+    left: 47%;
+}

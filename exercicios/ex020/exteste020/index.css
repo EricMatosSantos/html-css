@@ -1,0 +1,44 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    border: 10px solid red;
+    padding: 100px;
+    width: 300px;
+    outline: 10px solid blue;
+    margin: 100px;
+}
+/*
+     Tipos de Caixa
+    Box-Level
+
+     <div>
+     <h1>-<h6>
+     <p>
+     <main>
+     <header>
+     <nav>
+     <article>
+     <aside>
+     <footer>
+     <form>
+     <video>
+
+     Inline-level
+
+     <span>
+     <a>
+     <code>
+     <small>
+     <strong>
+     <em>
+     <sup>-<sub>
+     <label>
+     <button>
+     <input>
+     <select>
+
+
+
+*/

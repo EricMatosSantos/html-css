@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.logohtml{
+    cursor: grab;
+    height: 20%;
+    position: absolute;
+    top: 10%;
+    left: 34%;
+}
+.logojavascript{
+width: 16%;
+cursor: grab;
+height: 20%;
+position: absolute;
+top: 10%;
+left: 51%;
+}
+.logohardware{
+    width: 17%;
+    cursor: grab;
+    position: absolute;
+    top: 30%;
+    left: 34%;
+
+}
+.logopython{
+    height: 20%;
+    width: 16%;
+    cursor: grab;
+    position: absolute;
+    top: 30%;
+    left: 51%;
+}

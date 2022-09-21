@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    margin: auto;
+}
+
+header{
+    background-color: red;
+    margin: 10px;
+    padding: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    background-color: lightseagreen;
+    margin: 10px;
+    box-shadow: 2px 2px 4px 1px rgb(255, 0, 149);
+}
+
+nav > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 13px
+}
+
+nav > a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+article > h2{
+    background-color: gold;
+    border: 1px solid red;
+}
+
+article > p{
+    text-indent: 20px;
+}
+
+#artigo{
+    text-indent: 0px;
+}
+
+p.livre{
+    text-indent: 0px;
+}
+
+aside > p{
+    text-indent: 20px;
+}
+
+main{
+    background-color: blue;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+#noticias{
+    text-align: center;
+    background-color: green;
+    color: black;
+    font: bold;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 0px;
+}
+
+footer > p{
+    margin: 0px;
+}
+
+h1{
+    box-shadow: inset 1px 14px 16px rgba(0, 191, 255, 0.637);
+    margin: 10px;
+}
+/* "box-shadow" utilizado para criar sombras em volta das declarações*/
+/* sempre usar shorthand = box-shadow: 1px 1px 1px black;*/
+
+
+
+
+
