@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="stylesheet" href="tabela001.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
-    <style>
-        table{
-            width: 400px;
-            border-collapse: collapse;
-        }
-
-        td{
-         border: 1px solid black;
-        padding: 8px;
-        }
-    </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
@@ -30,26 +20,26 @@
 
     -->
     <table>
-     <tr> <!--Primeira linha-->
-         <td>A1</td>
-         <td>B1</td>
-         <td>C1 </td>
-     </tr>
-     <tr>
-        <td>A2</td>
-        <td>B2</td>
-            <td>C2</td>
-     </tr>
-     <tr>
-        <td>A3</td>
-        <td>B3</td>
-        <td>C3</td>
-     </tr>
-     <tr>
-        <td>A4</td>
-        <td>B4</td>
-        <td>C4</td>
-     </tr>
+        <tr class="menu"> <!--Primeira Linha-->
+            <td>Frutas</td>
+            <td>Quantidade</td>
+            <td>Preço</td>
+        </tr>
+        <tr class="primeira"> <!--Segunda Linha-->
+            <td>Banana</td>
+            <td>1</td>
+            <td>R$ 7,99</td>
+        </tr>
+        <tr class="segunda"> <!--Terceira linha-->
+            <td>Morango</td>
+            <td>1</td>
+            <td class="numero">R$ 3,99</td>
+        </tr>
+        <tr class="terceira"> <!--Quarta Linha-->
+            <td>Laranja</td>
+            <td>1</td>
+            <td class="numero">R$ 8,99</td>
+        </tr>
     </table>
 </body>
 </html>
