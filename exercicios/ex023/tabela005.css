@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+col.cnome{
+    background-color: greenyellow;
+}
+
+col.csexo{
+    background-image: linear-gradient(to right, orange, red);
+}
+
+col.cidade{
+    background-image: linear-gradient(to left, red, orange);
+}
+
+col.cprof{
+    background-image: linear-gradient(to right, purple, pink);
+}
